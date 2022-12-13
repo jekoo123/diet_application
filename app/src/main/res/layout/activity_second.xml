@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBF2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Where are you?"
+            android:background="@drawable/round"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="map"
+            android:textSize="25dp"
+            android:background="@drawable/edge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edge2"
+        android:gravity="center"
+        android:hint="Place Name"
+        android:textSize="25dp"
+        >
+
+    </EditText>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="30dp"
+        android:text="Your Comment"
+        android:textAlignment="center"
+        android:background="@drawable/round"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edge2"
+        android:gravity="center"
+        android:hint="Comment"
+        android:textSize="25dp"
+        >
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Photo"
+            android:textAlignment="center"
+            android:background="@drawable/round"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            />
+
+      <Button
+            android:id="@+id/button_camera"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="20dp"
+            android:text="camera"
+            android:textSize="25dp"
+            android:background="@drawable/edge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/edge2"
+        android:autofillHints="your photo"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:text="back"
+            android:textSize="25dp"
+            android:background="@drawable/edge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="30dp"
+            android:text="submit"
+            android:textSize="25dp"
+            android:background="@drawable/edge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

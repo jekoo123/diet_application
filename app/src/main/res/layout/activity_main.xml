@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBF2"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="25dp"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/button_list"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="35dp"
+        android:gravity="center"
+        android:text="Your List"
+        android:textSize="25dp"
+        android:background="@drawable/edge"
+        android:textColor="@color/white"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="73dp"
+        android:text="Food Name"
+
+        android:background="@drawable/round"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round2"
+        android:gravity="center"
+        android:hint="Name"
+        android:textSize="30dp">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round"
+        android:text="Food Amount"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round2"
+        android:gravity="center"
+        android:hint="How many?"
+        android:textSize="30dp">
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="60dp"
+
+            android:text="submit"
+            android:textSize="30dp"
+            android:background="@drawable/edge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/button_analyze"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="60dp"
+
+            android:text="Analize"
+            android:textSize="30dp"
+            android:background="@drawable/edge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/round"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="MAP"
+        android:textSize="35dp"
+        android:background="@drawable/round2"
+        android:textColor="#FF73AD"
+        android:textStyle="bold"
+
+        />
+
+    <androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        tools:context=".MapsActivity2">
+    </androidx.fragment.app.FragmentContainerView>
+
+
+
+        <Button
+            android:id="@+id/button_back9"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="100dp"
+            android:layout_gravity="center"
+            android:text="Back"
+            android:textSize="30dp"
+            android:background="@drawable/edge"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+
+</LinearLayout>
+

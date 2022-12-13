@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".analyze"
+
+    >
+    <TextView
+        android:id="@+id/textView_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analyze Result"
+
+        android:gravity="center"
+        android:background="@drawable/round5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="일평균 칼로리 섭취량"
+        android:background="@drawable/edge"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView_car"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edge2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+         />
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="제일 많이 먹은 음식"
+        android:background="@drawable/edge"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView_konomi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edge2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="205dp"
+        android:background="@drawable/round"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textView_food"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round3"
+                android:text="권장 칼로리 섭취량"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="35dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="45dp"
+                    android:background="@drawable/round3"
+                    android:text="남성"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="30dp" />
+
+                <TextView
+
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edge2"
+                    android:text="2700kcal"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+             />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="45dp"
+                    android:background="@drawable/round3"
+                    android:text="여성"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/edge2"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:text="2100kcal"
+                    android:textSize="30dp"
+                     />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_back3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="right"
+        android:layout_marginStart="40dp"
+
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:textSize="25dp"
+        android:background="@drawable/edge"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

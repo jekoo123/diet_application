@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBF2"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/round"
+            android:text="Result Table"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@drawable/round"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_food"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round3"
+                android:text="Food"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView_amount"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/round3"
+                android:text="Amount"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView_ca"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/round3"
+                android:text="Calorie"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView_place"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/round3"
+                android:text="Place"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView_time"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round3"
+                android:text="Date"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/result_food"
+                android:layout_width="220dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/round2"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/result_amount"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/round2"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/result_ca"
+                android:layout_width="220dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/round2"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/result_pl"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/round2"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/result_ti"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/round2"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edge"
+            android:text="back"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edge"
+            android:text="Return to main"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
